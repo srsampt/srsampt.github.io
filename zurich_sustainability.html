@@ -6,13 +6,13 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Sarah Sampt</title>
+	<title>Zürich Sustainability</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
 	<!-- Bootstrap -->
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
+	<!-- Icon font -->
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
@@ -21,19 +21,18 @@
 
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
-<body class="home">
+<body>
 
 <header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
+	<div id="head" class="parallax" parallax-speed="1">
 		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/me.jpeg" alt="">
-			<span class="title"><strong>Sarah Sampt</strong></span>
-			<span class="tagline"><strong>GIS Student at the University of Connecticut</strong><br>
+			<span class="title">Sarah Sampt</span>
+			<span class="tagline">GIS Student at the University of Connecticut<br>
 				<a href="">srsampt@gmail.com</a></span>
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default navbar-sticky">
+	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			
 			<div class="navbar-header">
@@ -43,7 +42,7 @@
 			<div class="navbar-collapse collapse">
 				
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="resume.html">Resume</a></li>
 				</ul>
 			
@@ -55,104 +54,91 @@
 <main id="main">
 
 	<div class="container">
-		
-		<div class="row section topspace">
-			<div class="col-md-12">
-				<p class="lead text-center text-muted">Hi! I'm a third-year student at the University of Connecticut, majoring in Geographical Information Science and minoring in Computer Science! I am looking for internship opportunities for Summer 2024. Check out my <a href="resume.html">resume</a>! </p>
-				<p class="lead text-center text-muted">Take a look at some of the GIS projects I've worked on:</p>
-			</div>
-		</div> <!-- / section -->
-	
-		<div class="row section recentworks topspace">
+
+		<div class="row topspace">
+
+			<!-- Article main content -->
+			<article class="col-sm-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">I created this <a href="https://storymaps.arcgis.com/stories/be15879fd054454580879d6cb6879079" target="_blank">Story Map</a></h1>
+					<p></p>
+					<h1 class="page-title">Here are some maps I created for this project:</h1>
+				</header>
+			</article>
+
+			<aside class="col-md-4 sidebar sidebar-left">
+			<!-- Carousel -->
+				<div id="myCarousel" class="carousel slide zurich-carousel">
+
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Content -->
+					<div class="carousel-inner">
+						
+						<!-- Slide 1-->
+						<div class="item active zurich-carousel">
+							<img src="assets/images/noise_layout.png">
+						</div>
+						
+						<!-- Slide 2-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/Gampel_Focus.png">
+						</div>
+
+						<!-- Slide 3-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/Chem_Building_Focus.png">
+						</div>
+
+						<!-- Slide 4-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/Bookstore_Focus.png">
+						</div>
+
+						<!-- Slide 5-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/Memorial_Focus.png">
+						</div>
+
+
+						<!-- Slide 6-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/CTCommons_Focus.png">
+						</div>
+
+						
+						<!-- Slide 7-->
+						<div class="item zurich-carousel">
+							<img src="assets/images/Rec_Center_Focus.png">
+						</div>
+					
+					</div>
+
+					<!-- Previous/Next controls-->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="icon-prev" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="icon-next" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</aside>
+
 			
-			<h2 class="section-title"><span>My GIS Portfolio</span></h2>
-			
-			<div class="thumbnails recentworks row">
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="uconn_project.html">
-						<span class="img">
-							<img src="assets/images/current_uconn_campus.png" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">UConn: From the 90s to Now</span>
-					</a>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="zurich_sustainability.html">
-						<span class="img">
-							<img src="assets/images/where_is_zurich.png" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Sustainability in Zürich, Switzerland Through Maps</span>
-					</a>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="west_haven.html">
-						<span class="img">
-							<img src="assets/images/west_haven_storm_surge.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">The Impact of Storm Surge on West Haven, CT</span>
-					</a>
-					<h4></h4>
-					<p></p>
-				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Pure ipsum - development services for people</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-				
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<a class="thumbnail" href="sidebar-right.html">
-						<span class="img">
-							<img src="assets/images/s1.jpg" alt="">
-							<span class="cover"><span class="more">See details &rarr;</span></span>
-						</span>
-						<span class="title">Lorem studios - interior and patio design</span>
-					</a>
-					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
-					<h4></h4>
-					<p></p>
-				</div>
-			</div>
-
-		</div> <!-- /section -->
-
-
+		</div>
 	</div>	<!-- /container -->
-
+	
 </main>
 
-<footer id="footer">
+<footer id="footer" class="topspace">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 widget">

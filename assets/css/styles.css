@@ -648,17 +648,28 @@ footer.entry-meta .meta-in {
   margin-bottom: 30px;
 }
 
-#myCarousel {
+/* #myCarousel {
+  width: 500px;
+  height: 500px;
+} */
+
+.uconn-carousel {
   width: 500px;
   height: 500px;
 }
 
-.item {
-  width: 500px;
-  height: 500px;
+.uconn-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.item img {
+.zurich-carousel {
+  width: 330px;
+  height: 440px;
+}
+
+.zurich-carousel img {
   width: 100%;
   height: 100%;
   object-fit: cover;
