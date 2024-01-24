@@ -191,6 +191,10 @@ h5 {
   font-size: 20px;
   font-size: 1.25rem;
 }
+h6 {
+  font-size: 12px;
+  font-size: 1rem;
+}
 a {
   color: #bd1550;
 }
