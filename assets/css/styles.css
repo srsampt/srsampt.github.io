@@ -663,8 +663,8 @@ footer.entry-meta .meta-in {
 } */
 
 .uconn-carousel {
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
 }
 
 .uconn-carousel img {
@@ -845,3 +845,10 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 
+.hover-image {
+  transition: transform 0.25s ease;
+}
+.hover-image:hover {
+  -webkit-transform:scale(1.5); /* or some other value */
+  transform:scale(1.5);
+}
