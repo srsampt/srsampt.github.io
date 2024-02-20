@@ -657,10 +657,15 @@ footer.entry-meta .meta-in {
   margin-bottom: 30px;
 }
 
-/* #myCarousel {
-  width: 500px;
-  height: 500px;
-} */
+#uconnCarousel {
+  width: 700px;
+  height: 700px;
+}
+
+#zurichCarousel {
+  width: 510px;
+  height: 660px;
+}
 
 .uconn-carousel {
   width: 700px;
@@ -674,8 +679,8 @@ footer.entry-meta .meta-in {
 }
 
 .zurich-carousel {
-  width: 530px;
-  height: 640px;
+  width: 510px;
+  height: 660px;
 }
 
 .zurich-carousel img {
@@ -851,4 +856,8 @@ footer.entry-meta .meta-in {
 .hover-image:hover {
   -webkit-transform:scale(1.5); /* or some other value */
   transform:scale(1.5);
+}
+
+.steps {
+  text-align: center;
 }
