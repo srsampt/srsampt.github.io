@@ -879,3 +879,43 @@ footer.entry-meta .meta-in {
 .steps {
   text-align: center;
 }
+
+
+/*********************************************************************
+
+
+                                ACS INTERVIEW PAGE
+
+
+**********************************************************************/
+
+.center-container {
+  width: 50%;
+  margin: auto;
+}
+
+.center-container h2 {
+  text-align: center;
+}
+
+.center-container h3 {
+  text-align: center;
+}
+
+.left-big-container {
+  width: 80%;
+  float: left;
+}
+
+.right-small-container {
+  width: 20%;
+  float: left;
+}
+
+/* .project-box {
+  min-height: 400px;
+}
+
+.project-box-smaller {
+  min-height: 300px;
+} */
