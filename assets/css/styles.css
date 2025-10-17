@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
-  color: #666666;
+  color: "black";
   padding: 0;
 }
 .topspace {
@@ -169,7 +169,7 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #333333;
+  color: "black";
 }
 h1 {
   font-size: 40px;
