@@ -295,12 +295,12 @@ img {
   max-width: 100%;
 }
 .btn {
-  font-size: 12px;
+  /* font-size: 12px;
   font-size: 0.75rem;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  text-transform: uppercase; */
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* color: #333; */
   -webkit-border-radius: 0px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0px;
@@ -316,9 +316,9 @@ img {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  border: 0 none;
-  padding: 12px 35px;
-  text-shadow: 0 1px 0px #780d33;
+  /* border: 0 none;
+  padding: 12px 35px; */
+  /* text-shadow: 0 1px 0px #780d33; */
 }
 .btn-primary {
   color: #fff;
@@ -936,3 +936,35 @@ footer.entry-meta .meta-in {
 .project-box-smaller {
   min-height: 300px;
 } */
+
+
+/*********************************************************************
+
+
+                                CALENDAR
+
+
+**********************************************************************/
+
+
+
+table {
+  table-layout: fixed;
+  width: 75%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+th,
+td {
+  padding: 0.6em;
+  border: 1px solid gray;
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
+}
+
+#calendar h4 {
+  text-align: center;
+}
